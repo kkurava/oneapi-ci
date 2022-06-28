@@ -1,0 +1,5 @@
+Build started
+git clone -q --branch=master https://github.com/oneapi-src/oneapi-ci.git /Users/appveyor/projects/oneapi-ci
+git checkout -qf 9eed36f67557e54c289195338f559319d14f92b5
+
+scripts/install_macos.sh $MACOS_HPCKIT_URL $MACOS_CPP_COMPONENTS
